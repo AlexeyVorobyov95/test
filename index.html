@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/test/assets/index-f4726089.js"></script>
-    <link rel="stylesheet" href="/test/assets/index-d526a0c5.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tweets Life</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/test/assets/apple-touch-icon-ac14839d.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,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">
+  <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB11BMVEUAAAD49/5bSc3q8/////+zquuimOg6LG1xWr4AAP9VRHZxWbw8LZMzJ4lOPoM+L484KohVRYK1ruuro+i5s+/Y1/v+//+4sO6Je9p3Z9F8a9KBb9OBcNZ/cNaAcNV/b9WBctiimOmCdNp6a9R1ZtRcUqxWS6JSR55PRptLQpZEOo1rYbOCdNmBdNl2aNY/NJM4LYg1KoUxJ4AvJHoqL3A7OYF8btODdtp4atc6MJMzKY6Ed9p6bNc8MZU2MpCLf91/cdk+MpY3LJJYS6uIe9WRhd6Pg96EdtiHedqJfdyEdttFOZ1DN6A/NZo0NoYzKYc6LoU5KmdrU7d3ZMqCdNh9b9h4aNpMQKJPRKZNQ6RHOp4+NJoyKJE5LX5uVbd6aM6Acth6a9hEMIY3LJs5LZQ1KoA/MZU9MZJCM4h3aNN7bdWPe72ljJ2Sf7yBctZ9b9eDdNatjYrJoVzFpniMfteActmFeNqMeMHCn3Ork6WLftwxJowtIYUqOnscW2I0OH97b9OCddmHe9yUgL++nXuUhc6MgN0zY4UuVIIeb2cgMWY4Lod9cdSJfdyOg96ThNSdiruShtiPg90wWH4gg2chO2krH3owJoKNgd0uI4IyKIk5LY////9aWrjCAAAAaXRSTlMAAAAAAAAAAAAAAAAAAAAAAAAHDAcEARGfx7qvo5eMdh4o6PhWCikxNTk8Ye/5WU/k7vDz9fj++Vle+vlZXvr4Vl768J2OirD6wh9R6PP1/NEWDov2rQUMLzk9cup6CD1EAwFZ1GYCFwzNV6RsAAAAAWJLR0QEj2jZUQAAAAd0SU1FB+cEGgsxDM4PNNkAAAC8SURBVBjTY2AgDjAyCQmLiIoxs8AEWMUlJKWkZWTl5BUgAmyKSplZ2Tm5ecoqDKpq6hqaWto6+QWFRcUlunoM+gaGRsYmpmalZeUVlVXmFgyWVtU1tXX1DY1NzS2tbdY2DLZ27R2dXd09vX39EyZOsndgcHSaPGXqtOnOLq5u7h4zPL0YvH18/fxnzgoIZOcICg4JDWMIj4iMio6ZHcvJxcAdF5+QCHIFT1JySiovH5LL+dPSMwQEifQmAwDaUy876niGHAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wNC0yNlQxMTo0OToxMiswMDowMAxBTn8AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDQtMjZUMTE6NDk6MTIrMDA6MDB9HPbDAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC">
+  <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiVHdlZXRzIExpZmUiLAogICAgInNob3J0X25hbWUiOiAiVHdlZXRzIExpZmUiLAogICAgImljb25zIjogWwogICAgICAgIHsKICAgICAgICAgICAgInNyYyI6ICIvYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLAogICAgICAgICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgICAgICB9CiAgICBdLAogICAgInRoZW1lX2NvbG9yIjogIiNmZmZmZmYiLAogICAgImJhY2tncm91bmRfY29sb3IiOiAiI2ZmZmZmZiIsCiAgICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIgp9Cg==">
+  <link rel="mask-icon" href="/test/assets/safari-pinned-tab-2cbe1d63.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="theme-color" content="#ffffff">
+
+  <script type="module" crossorigin src="/test/assets/index-b935306f.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  
+</body>
+
 </html>
