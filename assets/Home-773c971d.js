@@ -1,4 +1,4 @@
-import{L as n,u as i,j as e}from"./index-122614df.js";import{n as o}from"./emotion-styled.browser.esm-d5d26058.js";const r=o.div`
+import{L as n,u as i,j as e}from"./index-037f12bb.js";import{n as o}from"./emotion-styled.browser.esm-3d9ad7d7.js";const r=o.div`
   min-height: 80vh;
   background: linear-gradient(#e66465, #9198e5);
 `,s=o(n)`
