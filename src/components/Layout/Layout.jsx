@@ -14,12 +14,13 @@ import { useLocation } from 'react-router-dom';
 const Layout = () => {
   const location = useLocation();
 
+
   return (
     <>
       <header>
         <Nav>
           <LinkLogo to="/">
-            <ImgLogo src="src/images/logo.png" alt="Logo" />
+            <ImgLogo src="../../images/logo.png" alt="Logo" />
             <Name>Tweets Life</Name>
           </LinkLogo>
           <ActivNavLink to="/">Home</ActivNavLink>
