@@ -4,7 +4,6 @@ import {
   ActivNavLink,
   FooterContainer,
   FooterLink,
-  ImgLogo,
   LinkLogo,
   Name,
   Nav,
@@ -14,13 +13,11 @@ import { useLocation } from 'react-router-dom';
 const Layout = () => {
   const location = useLocation();
 
-
   return (
     <>
       <header>
         <Nav>
           <LinkLogo to="/">
-            <ImgLogo src="../../images/logo.png" alt="Logo" />
             <Name>Tweets Life</Name>
           </LinkLogo>
           <ActivNavLink to="/">Home</ActivNavLink>

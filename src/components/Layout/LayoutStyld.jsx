@@ -24,11 +24,6 @@ export const ActivNavLink = styled(NavLink)`
   }
 `;
 
-export const ImgLogo = styled.img`
-  width: 100px;
-  height: auto;
-`;
-
 export const LinkLogo = styled(Link)`
   display: flex;
   color: white;
@@ -45,8 +40,7 @@ export const FooterContainer = styled.div`
   display: flex;
   width: 100%;
   height: 100px;
-  
-  
+
   text-align: center;
   background: linear-gradient(
     114.99deg,
